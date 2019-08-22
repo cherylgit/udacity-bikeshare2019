@@ -218,7 +218,7 @@ def raw_data(df):
     while True:
         if view_data == 'no':
             return
-        if see_data == 'yes':
+        if view_data == 'yes':
             print(df[row_index: row_index + 5])
             row_index = row_index + 5
         view_data = input("\n Would you like to see an additional five rows of the raw input data? Type 'Yes' or 'No' \n").lower()     
